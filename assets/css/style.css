@@ -1,0 +1,1201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto-Regular";
+}
+
+/* =====  Font Family  ===== */
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+
+  /*?  Font Weight 300  ?*/
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+
+  /*?  Font Weight 400  ?*/
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+
+  /*?  Font Weight 500  ?*/
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+
+  /*?  Font Weight 700  ?*/
+}
+
+
+
+/* =====  Root Variables  ===== */
+
+:root {
+  --bg-color: #0f172a;
+  --grey-color: #334155;
+  --dark-grey-color: #1e293b;
+  --purple-color: #818CF8;
+  --btn-color: #4F46E5;
+  --sub-text-color: #CBD5E1;
+  --white-color: #fff;
+  --black-color: #000;
+  --blue-border: #6366F1;
+  --grey-border: #475569;
+  --footer-sub-heading : #E2E8F0;
+}
+
+
+
+body {
+  background-color: var(--bg-color);
+}
+/*=====  Navbar Section  =====*/
+
+.logo {
+font-family: 'Roboto-Bold';
+font-size: 32px;
+text-align: left;
+color: var(--white-color) !important;
+}
+
+.nav-item a, .nav-btn {
+font-family: 'Roboto-Medium';
+font-size: 16px;
+letter-spacing: 0.5px;
+color: var(--white-color) !important;
+text-decoration: none;
+margin-right: 16px ;
+}
+
+.nav-grey-btn{
+border-radius: 8px;
+padding: 15.5px 40px;
+color: var(--white-color);
+font-family: "Roboto-Medium";
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-decoration: none;
+border: 1px solid var(--grey-border);
+background-color: var(--grey-color);
+transition: all 0.5s;
+}
+
+.nav-grey-btn {
+  border: 1px solid var(--grey-border);
+  background-color: var(--grey-color);
+  transition: all 0.5s;
+}
+
+.nav-grey-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--grey-border);
+  color: white !important;
+}
+
+
+/*=====  Start Header Section  =====*/
+
+header {
+  text-align: center;
+}
+
+.header-sub-title {
+  color: var(--purple-color);
+  margin-top: 80px;
+  font-family: "Roboto-Medium";
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.header-title {
+  color: var(--white-color);
+  font-size: 72px;
+  line-height: 79.2px;
+  font-weight: 800;
+  margin-top: 8px;
+  margin-bottom: 32px !important;
+}
+
+.header-p {
+  font-size: 18px;
+  color: var(--sub-text-color);
+  line-height: 28.8px;
+}
+
+.header-buttons {
+  margin-top: 32px;
+}
+
+.header-buttons button {
+  border-radius: 8px;
+  padding: 15.5px 40px;
+  color: var(--white-color);
+  font-family: "Roboto-Medium";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  outline: none;
+}
+
+.blue-btn {
+  border: 1px solid var(--blue-border);
+  background-color: var(--btn-color);
+  transition: all 0.5s;
+}
+
+.blue-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--blue-border);
+}
+
+.grey-btn {
+  border: 1px solid var(--grey-border);
+  background-color: var(--grey-color);
+  margin-left: 12px;
+  transition: all 0.5s;
+}
+
+.grey-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--grey-border);
+}
+
+.shape-img {
+  width: 284.18px;
+  height: 284.14px;
+  margin: 80px 0;
+}
+
+/*=====  End Header Section  =====*/
+
+
+
+/*=====  Start Header Footer Section  =====*/
+
+.header-footer-heading {
+  color: var(--sub-text-color);
+  font-family: "Roboto-Bold";
+  font-size: 24px;
+  line-height: 26.4px;
+  margin-top: 80px;
+}
+
+.companies {
+  gap: 80px;
+  margin: 80px 0 160px;
+}
+
+.gap {
+  gap: 8px;
+}
+
+.smartfinder-img {
+  width: 33.16px;
+  height: 32px;
+}
+
+.zoomerr-img {
+  width: 32px;
+  height: 32px;
+}
+
+.shells-img {
+  width: 30.4px;
+  height: 32px;
+}
+
+.waves-img {
+  width: 21.03px;
+  height: 32px;
+}
+
+.artvenue-img {
+  width: 55.81px;
+  height: 32px;
+}
+
+.company-name {
+  font-family: "Roboto-Bold";
+  color: var(--sub-text-color);
+  font-size: 24px;
+  line-height: 26.4px;
+}
+
+/*=====  End Header Footer Section  =====*/
+
+
+
+/*=====  Start Team Section  =====*/
+
+.first-h2 {
+  color: var(--white-color);
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61.6px;
+  text-align: center;
+}
+
+.second-h2 {
+  color: var(--purple-color);
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61.6px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.team p {
+  color: var(--sub-text-color);
+  font-size: 18px;
+  line-height: 28.8px;
+  text-align: center;
+  margin: 32px 0 80px !important;
+}
+
+/*=====  End Team Section  =====*/
+
+
+
+/*=====  Start Bigger Team Section  =====*/
+
+.bigger-row {
+  gap: 80px;
+}
+
+.bigger-team-img {
+  /* width: 600px; */
+  width: 525px;
+  height: 100%;
+  height: auto;
+}
+
+.bigger-h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52.8px;
+  color: var(--white-color);
+}
+
+.more-h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52.8px;
+  color: var(--purple-color);
+}
+
+.bigger-row p {
+  font-size: 16px;
+  line-height: 28.8px;
+  color: var(--sub-text-color);
+  margin: 32px 0 153px !important;
+}
+
+/*=====  End Bigger Team Section  =====*/
+
+
+
+/*=====  Start Powerful Tools Section  =====*/
+
+.offset-1 {
+  margin-left: 0;
+}
+.tools-row {
+  gap: 80px;
+}
+.tools-img-1 {
+  /* width: 485px; */
+  width: 415px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.tools-img-2 {
+  /* width: 600px; */
+  width: 535px;
+}
+.content-col
+{
+  padding-top: 40px;
+}
+
+
+.tool-h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52.8px;
+  color: var(--white-color);
+}
+
+.control-h3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52.8px;
+  color: var(--purple-color);
+}
+
+.tool-p {
+  font-size: 16px;
+  line-height: 28.8px;
+  color: var(--sub-text-color);
+  margin-top: 32px;
+}
+
+.tool-list span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+span .fa-check {
+  color: var(--purple-color);
+}
+
+span p {
+  font-size: 16px;
+  line-height: 28.8px;
+  color: var(--white-color);
+  margin-bottom: 0;
+}
+
+.tool-btn {
+  border-radius: 8px;
+  padding: 15.5px 40px;
+  color: var(--white-color);
+  font-family: "Roboto-Medium";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  outline: none;
+}
+
+/*=====  End Powerful Tools Section  =====*/
+
+
+
+/*=====  Start Team Management Section  =====*/
+
+.management-img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.team-2-h3 {
+  font-size: 38px;
+}
+
+
+/*=====  End Team Management Section  =====*/
+
+/*=====  Start Graph Section  =====*/
+
+.border-row {
+  border: 1px solid var(--grey-border);
+  border-radius: 20px;
+  padding: 63px 0 63px 63px;
+  margin-bottom: 80px !important;
+}
+
+.graph-img {
+  width: 608px;
+  height: 277px;
+  gap: 48px;
+}
+
+.graph-h5 {
+  font-family: "Roboto-Bold";
+  font-size: 32px;
+  line-height: 35.2px;
+  color: var(--white-color);
+}
+
+.graph-p {
+  font-size: 18px;
+  line-height: 28.8px;
+  color: var(--sub-text-color);
+  margin: 32px 0 !important;
+}
+
+.graph-btn {
+  border-radius: 8px;
+  padding: 15.5px 35px;
+  color: var(--white-color);
+  font-family: "Roboto-Medium";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  outline: none;
+  margin: 0;
+}
+
+/*=====  End Graph Section  =====*/
+
+
+
+/*=====  Start Work Section  =====*/
+
+.work-section {
+  background-color: var(--dark-grey-color);
+  display: flex;
+  padding-top: 20px;
+  overflow: hidden;
+
+}
+.container-work {
+  width: 100%;
+}
+.work-content {
+  padding: 50px 40px 70px 70px !important;
+}
+.work-img-div {
+  width: 100%;
+}
+.work-img {
+  height: 380px;
+  border-top-left-radius: 20px;
+  width: 100%;
+}
+.work-p {
+  margin-bottom: 32px !important;
+}
+
+
+/*=====  End Work Section  =====*/
+
+
+
+/* /=====  slider Section   start =====/ */
+.Testimonails {
+  padding: 70px 0px;
+}
+
+.card {
+  width:384px;
+  height: 100%;
+  padding: 32px;
+  background-color: #334155;
+  border: 1px solid #475569;
+  border-radius: 20px;
+  } 
+  
+  .c-logo {
+      padding: 15px 0;
+  }
+  .c-logo img {
+  width:auto;
+  height:32px;
+  }
+  
+  .card-content {
+      margin: 15px 0;
+      height: 70%;
+  }
+  .card-content p{
+  font-family: 'roboto-regular';
+  font-size: 22px;
+  color: #fff;
+  }
+  
+  .user-card {
+      gap: 10px;
+      padding-top: 16px;
+  }
+  .user-dp img {
+      height: 64px;
+      width: 64px;
+      border-radius: 50%;
+  }
+  
+  .user-name {
+  font-family: 'roboto-regular';
+  font-size: 17px;
+  color: #fff;
+  word-break: break-all;
+  }
+  .user-job {
+  font-family: 'roboto-regular';
+  font-size: 15px;
+  color: #94A3B8;
+  }
+  
+  /* ************************* Swiper Slider ************************ */
+  .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: auto !important;
+      height: auto !important;
+    }
+  
+  .prev-btn, .next-btn {
+  font-family: 'roboto-regular';
+  font-size: 15px;
+  padding: 12px 8px 12px 8px;
+  color: #fff !important;
+  }
+  
+  .swiper-navigation {
+  gap: 15px;
+  }
+  .swiper-navigation span {
+      margin: 10px;
+  }
+/* /=====  slider Section   enddd =====/ */
+
+/* /=====  Start Project Section  ===== */
+
+.project {
+  padding: 80px 0 160px;
+}
+
+.project-h2 {
+  color: var(--white-color);
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61.6px;
+}
+
+.project-sub-h2 {
+  color: var(--purple-color);
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61.6px;
+  margin-bottom: 32px;
+}
+
+.project-p {
+  color: var(--sub-text-color);
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+/* /=====  End Project Section  =====/ */
+
+/* /=====  Start Footer Section  =====/ */
+
+footer {
+  background-color: var(--grey-color);
+}
+
+.footer-top {
+  padding: 48px 0px;
+}
+
+.footer-heading {
+  color: var(--white-color);
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  line-height: 17.6px;
+  padding: 12px 0;
+}
+
+.footer-sub-heading {
+  color: var(--footer-sub-heading);
+  font-size: 16px;
+  line-height: 22.4px;
+  padding: 12px 0;
+}
+
+.beta {
+  padding: 4px 4px;
+  margin-left: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16.8px;
+  background-color: #E0E7FF;
+  color: #3730A3;
+}
+
+.footer-bottom {
+  padding: 24px 0;
+}
+
+.footer-2023 {
+  color: var(--footer-sub-heading);
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.footer-privacy {
+  gap: 32px;
+}
+
+.footer-privacy-p {
+  font-size: 16px;
+  line-height: 22.4px;
+  color: var(--footer-sub-heading);
+}
+
+.social-media {
+  gap: 16px;
+}
+
+.social-media .icons {
+  font-size: 24px;
+  color: var(--footer-sub-heading);
+}
+
+.store {
+  gap: 16px;
+}
+
+.play-store-img,
+.app-store-img {
+  width: auto;
+  height: 40px;
+}
+
+/* /=====  End Footer Section  =====/ */
+
+
+
+
+/* =====  Start Media Queries Section  ===== */
+
+
+@media only screen and (max-width: 1400px) {
+
+  .tools-img-1 {
+    width: 360px;
+  }
+
+  .tools-img-2 {
+    width: 475px;
+  }
+  
+  .graph-img {
+    width: 520px;
+  }
+
+  /*?  C - Width <= 1400px || B - W >= 1400px xxl :- (Very large Desktops)  ?*/
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .bigger-team-img {
+    width: 470px;
+  }
+
+  .tools-img-1 {
+    width: 305px;
+  }
+
+  .tools-img-2 {
+    width: 400px;
+  }
+
+  .team-h3 {
+    font-size: 40px;
+  }
+
+  .team-2-h3 {
+    font-size: 30px;
+  }
+
+  .team-list p {
+    font-size: 14px;
+  }
+
+  .team-btn {
+    padding: 10px 30px;
+  }
+
+  .graph-img {
+    width: 460px;
+  }
+
+  .graph-h5 {
+    font-size: 26px;
+  }
+
+  .graph-p {
+    font-size: 16px;
+  }
+
+  .grey-btn {
+    padding: 15.5px 12px;
+    font-size: 18px;
+  }
+
+
+  /*?  C - Width <= 1200px || B - 1200px to 1400px xl :- (Large Desktops)  ?*/
+}
+
+@media only screen and (max-width: 992px) {
+
+  .header-sub-title {
+    font-size: 17px;
+  }
+
+  .header-title {
+    font-size: 62px;
+  }
+
+  .header-p {
+    font-size: 16px;
+  }
+
+  .header-buttons button {
+    padding: 15.5px 25px;
+    font-size: 15px;
+  }
+
+  .companies {
+    gap: 34px;
+  }
+
+  .bigger-row p {
+    font-size: 13px;
+  }
+
+  .bigger-row {
+    gap: 50px;
+  }
+
+  .bigger-team-img {
+    width: 370px;
+  }
+
+  .bigger-h3 {
+    font-size: 45px;
+  }
+
+  .more-h2 {
+    font-size: 45px;
+  }
+
+  .bigger-row p {
+    font-size: 11px;
+  }
+
+
+  .tools-img-1 {
+    width: 225px;
+  }
+
+  .tools-img-2 {
+    width: 300px;
+  }
+
+  .tool-h3 {
+    font-size: 40px;
+  }
+
+  .control-h3 {
+    font-size: 40px;
+  }
+
+  .tool-p {
+    font-size: 12px;
+  }
+
+  span p {
+    font-size: 12px;
+  }
+
+  .tool-btn {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+
+  .team-h3 {
+    font-size: 30px;
+    line-height: 26.4px;
+  }
+
+  .team-2-h3 {
+    font-size: 20px;
+    line-height: 26.4px;
+  }
+
+  .team-p {
+    font-size: 12px;
+  }
+
+  .team-list p {
+    font-size: 10px;
+  }
+
+  .team-btn {
+    padding: 5px 20px;
+    font-size: 15px;
+  }
+
+  .graph-img {
+    width: 335px;
+  }
+
+  .graph-h5 {
+    font-size: 18px;
+  }
+
+  .graph-p {
+    font-size: 12px;
+  }
+
+  .grey-btn {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+  .footer-privacy {
+    gap: 24px;
+  }
+
+  .footer-2023 {
+    font-size: 14px;
+    line-height: 19.6px;
+    margin-bottom: 16px !important;
+  }
+
+  .footer-privacy p {
+    margin-bottom: 16px !important;
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  .store {
+    margin-top: 32px !important;
+  }
+  .project-h2 {
+    font-size: 45px;
+  }
+
+  .project-sub-h2 {
+    font-size: 45px;
+  }
+
+  .project-p {
+    font-size: 15px;
+  }
+
+  .store {
+    justify-content: start !important;
+  }
+
+
+  /*?  C - Width <= 992px || B - 992px to 1200px lg :- (Desktops, Laptops, Large Tablets)  ?*/
+}
+
+@media only screen and (max-width: 768px) {
+
+  .header-sub-title {
+    font-size: 15px;
+  }
+
+  .header-title {
+    font-size: 52px;
+  }
+
+  .header-p {
+    font-size: 14px;
+  }
+
+  .header-buttons button {
+    font-size: 15px;
+  }
+
+  .companies {
+    gap: 24px;
+  }
+
+  .first-h2 {
+    font-size: 46px;
+  }
+
+  .second-h2 {
+    font-size: 46px;
+  }
+
+  .team p {
+    font-size: 17px;
+  }
+
+  .bigger-row {
+    text-align: center;
+    gap: 0;
+  }
+
+  .bigger-row p {
+    margin-bottom: 32px !important;
+  }
+
+  .tools-img-1 {
+    margin-top: 0;
+  }
+
+  .img-col {
+    order: 1;
+    margin-top: 32px;
+  }
+
+  .content-col {
+    order: 0;
+  }
+
+  .tool-list {
+    margin: 32px 0 !important;
+  }
+
+  .tools-img-1 {
+    width: 300px;
+  }
+
+  .tools-img-2 {
+    width: 400px;
+    margin-bottom: 48px !important;
+  }
+
+  .team-h3 {
+    margin-top: 48px;
+  }
+
+  .team-btn {
+    margin-bottom: 0;
+  }
+
+  .management-img {
+    margin-top: 0;
+    margin-bottom: 48px !important;
+  }
+
+  .graph-h5 {
+    margin-top: 24px;
+  }
+
+  .border-row {
+    display: flex;
+    padding: 0 0 !important;
+    margin-top: 24px;
+  }
+
+  .p-0.justify-content-end {
+    justify-content: center !important;
+  }
+
+  .graph-img {
+    width: 100%;
+    height: 228px;
+    margin-top: 32px;
+  }
+  .project-h2 {
+    font-size: 45px;
+  }
+
+  .project-sub-h2 {
+    font-size: 45px;
+  }
+
+  .project-p {
+    font-size: 15px;
+  }
+
+  .store {
+    justify-content: start !important;
+  }
+
+
+  /*?  C - Width <= 768px || B - 768px to 992px md :- (Tablets and small desktops)  ?*/
+}
+
+@media only screen and (max-width: 576px) {
+
+  .header-sub-title {
+    font-size: 20px;
+  }
+
+  .header-title {
+    font-size: 48px;
+    line-height: 52.8px;
+  }
+
+  .header-p {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .header-buttons button {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .shape-img {
+    width: 240px;
+    height: 239.97px;
+    margin: 48px 0;
+  }
+
+  .header-footer-heading {
+    font-size: 18px;
+    margin-top: 48px;
+  }
+
+  .companies {
+    margin: 32px 0 96px;
+    gap: 24px;
+  }
+
+  .first-h2 {
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .second-h2 {
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .team p {
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 48px !important;
+  }
+
+  .bigger-h3 {
+    margin-top: 48px;
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .more-h2 {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .bigger-row p {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .tool-h3 {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+  .tools-img-2 {
+    margin-bottom: 0 !important;
+  }
+  .tools-row {
+    gap: 10px;
+  }
+
+  .control-h3 {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .tool-p {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  span p {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .graph-container {
+    padding: 0 24px !important;
+  }
+
+  .graph-h5 {
+    font-family: "Roboto-Medium";
+    font-size: 18px;
+    line-height: 19.8px;
+  }
+
+  .graph-p {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .grey-btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .content-col
+{
+  padding-top: 10px;
+}
+.team-h3 {
+  margin-top: 0;
+}
+
+.work-content {
+  padding: 20px !important;
+}
+.project {
+  padding: 48px 0;
+}
+
+.project-h2 {
+  font-size: 35px;
+}
+
+.project-sub-h2 {
+  font-size: 35px;
+}
+
+.project-p {
+  font-size: 12px;
+}
+
+
+}
+/*?  C - Width <= 576px || B - 576px to 768px sm :- (Landscape and Portrait mobiles)  ?*/
+
+@media only screen and (max-width: 380px) {
+
+  .grey-btn {
+    margin-top: 15px;
+  }
+  .tools-img-2 {
+    margin-bottom: 0 !important;
+  }
+  .bigger-team-img {
+    width: 300px;
+  }
+
+  .tools-img-1 {
+    width: 200px;
+  }
+
+  .tools-img-2 {
+    width: 300px;
+  }
+  .tools-row {
+    gap: 10px;
+  }
+  .content-col
+{
+  padding-top: 10px;
+}
+.team-h3 {
+  margin-top: 0;
+}
+.work-content {
+  padding: 20px !important;
+}
+.card {
+  width:310px;
+  } 
+}
+
+
+/* =====  End Media Queries Section  ===== */
