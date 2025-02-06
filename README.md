@@ -22,4 +22,4 @@ With Slider
 🤝 Connect With Me
 
 linkedin : www.linkedin.com/in/shabbirkovadiya
-](https://trakor.netlify.app/)
+
