@@ -1,4 +1,4 @@
-[🚀 Trakor
+🚀 Trakor
 
 Progress Trakor Website Static Page Design For Practicing HTML and CSS.
 
